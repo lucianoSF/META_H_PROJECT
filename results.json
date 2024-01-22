@@ -1,0 +1,1264 @@
+{
+    "users": {
+        "1": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 1
+            },
+            "t_2": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_3": {
+                "Uplink": 2,
+                "Downlink": 5
+            },
+            "t_4": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_5": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_6": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_8": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_9": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_10": {
+                "Uplink": 3,
+                "Downlink": 5
+            }
+        },
+        "2": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 1
+            },
+            "t_2": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_3": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_4": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_5": {
+                "Uplink": 1,
+                "Downlink": 2
+            },
+            "t_6": {
+                "Uplink": 4,
+                "Downlink": 3
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_8": {
+                "Uplink": 4,
+                "Downlink": 1
+            },
+            "t_9": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_10": {
+                "Uplink": 2,
+                "Downlink": 5
+            }
+        },
+        "3": {
+            "t_1": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 5
+            },
+            "t_3": {
+                "Uplink": 4,
+                "Downlink": 5
+            },
+            "t_4": {
+                "Uplink": 3,
+                "Downlink": 5
+            },
+            "t_5": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_6": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_7": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_8": {
+                "Uplink": 5,
+                "Downlink": 1
+            },
+            "t_9": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_10": {
+                "Uplink": 5,
+                "Downlink": 5
+            }
+        },
+        "4": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 2
+            },
+            "t_2": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_3": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_4": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_5": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_6": {
+                "Uplink": 2,
+                "Downlink": 5
+            },
+            "t_7": {
+                "Uplink": 4,
+                "Downlink": 2
+            },
+            "t_8": {
+                "Uplink": 4,
+                "Downlink": 2
+            },
+            "t_9": {
+                "Uplink": 1,
+                "Downlink": 3
+            },
+            "t_10": {
+                "Uplink": 5,
+                "Downlink": 1
+            }
+        },
+        "5": {
+            "t_1": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_2": {
+                "Uplink": 3,
+                "Downlink": 5
+            },
+            "t_3": {
+                "Uplink": 1,
+                "Downlink": 1
+            },
+            "t_4": {
+                "Uplink": 2,
+                "Downlink": 3
+            },
+            "t_5": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_6": {
+                "Uplink": 5,
+                "Downlink": 1
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 1
+            },
+            "t_9": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_10": {
+                "Uplink": 4,
+                "Downlink": 1
+            }
+        },
+        "6": {
+            "t_1": {
+                "Uplink": 4,
+                "Downlink": 1
+            },
+            "t_2": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_3": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_4": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_5": {
+                "Uplink": 1,
+                "Downlink": 3
+            },
+            "t_6": {
+                "Uplink": 3,
+                "Downlink": 2
+            },
+            "t_7": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_8": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_9": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_10": {
+                "Uplink": 3,
+                "Downlink": 3
+            }
+        },
+        "7": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_2": {
+                "Uplink": 5,
+                "Downlink": 1
+            },
+            "t_3": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_4": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_5": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_6": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_8": {
+                "Uplink": 2,
+                "Downlink": 5
+            },
+            "t_9": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_10": {
+                "Uplink": 3,
+                "Downlink": 5
+            }
+        },
+        "8": {
+            "t_1": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_2": {
+                "Uplink": 2,
+                "Downlink": 3
+            },
+            "t_3": {
+                "Uplink": 3,
+                "Downlink": 1
+            },
+            "t_4": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_5": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_6": {
+                "Uplink": 4,
+                "Downlink": 1
+            },
+            "t_7": {
+                "Uplink": 4,
+                "Downlink": 1
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_9": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_10": {
+                "Uplink": 2,
+                "Downlink": 5
+            }
+        },
+        "9": {
+            "t_1": {
+                "Uplink": 2,
+                "Downlink": 5
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_3": {
+                "Uplink": 5,
+                "Downlink": 1
+            },
+            "t_4": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_5": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_6": {
+                "Uplink": 5,
+                "Downlink": 1
+            },
+            "t_7": {
+                "Uplink": 1,
+                "Downlink": 3
+            },
+            "t_8": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_9": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_10": {
+                "Uplink": 3,
+                "Downlink": 5
+            }
+        },
+        "10": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_2": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_3": {
+                "Uplink": 4,
+                "Downlink": 2
+            },
+            "t_4": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_5": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_6": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_8": {
+                "Uplink": 3,
+                "Downlink": 5
+            },
+            "t_9": {
+                "Uplink": 3,
+                "Downlink": 5
+            },
+            "t_10": {
+                "Uplink": 3,
+                "Downlink": 4
+            }
+        },
+        "11": {
+            "t_1": {
+                "Uplink": 1,
+                "Downlink": 2
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_3": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_4": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_5": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_6": {
+                "Uplink": 4,
+                "Downlink": 3
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_9": {
+                "Uplink": 1,
+                "Downlink": 2
+            },
+            "t_10": {
+                "Uplink": 2,
+                "Downlink": 4
+            }
+        },
+        "12": {
+            "t_1": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 5
+            },
+            "t_3": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_4": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_5": {
+                "Uplink": 4,
+                "Downlink": 2
+            },
+            "t_6": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_7": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_8": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_9": {
+                "Uplink": 4,
+                "Downlink": 5
+            },
+            "t_10": {
+                "Uplink": 2,
+                "Downlink": 1
+            }
+        },
+        "13": {
+            "t_1": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 2
+            },
+            "t_3": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_4": {
+                "Uplink": 2,
+                "Downlink": 3
+            },
+            "t_5": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_6": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_8": {
+                "Uplink": 2,
+                "Downlink": 3
+            },
+            "t_9": {
+                "Uplink": 3,
+                "Downlink": 1
+            },
+            "t_10": {
+                "Uplink": 1,
+                "Downlink": 3
+            }
+        },
+        "14": {
+            "t_1": {
+                "Uplink": 5,
+                "Downlink": 1
+            },
+            "t_2": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_3": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_4": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_5": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_6": {
+                "Uplink": 2,
+                "Downlink": 3
+            },
+            "t_7": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_9": {
+                "Uplink": 4,
+                "Downlink": 3
+            },
+            "t_10": {
+                "Uplink": 2,
+                "Downlink": 1
+            }
+        },
+        "15": {
+            "t_1": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_2": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_3": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_4": {
+                "Uplink": 4,
+                "Downlink": 5
+            },
+            "t_5": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_6": {
+                "Uplink": 3,
+                "Downlink": 2
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 2
+            },
+            "t_9": {
+                "Uplink": 1,
+                "Downlink": 3
+            },
+            "t_10": {
+                "Uplink": 4,
+                "Downlink": 5
+            }
+        },
+        "16": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 5
+            },
+            "t_2": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_3": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_4": {
+                "Uplink": 4,
+                "Downlink": 1
+            },
+            "t_5": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_6": {
+                "Uplink": 3,
+                "Downlink": 2
+            },
+            "t_7": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 1
+            },
+            "t_9": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_10": {
+                "Uplink": 4,
+                "Downlink": 3
+            }
+        },
+        "17": {
+            "t_1": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 5
+            },
+            "t_3": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_4": {
+                "Uplink": 4,
+                "Downlink": 5
+            },
+            "t_5": {
+                "Uplink": 3,
+                "Downlink": 5
+            },
+            "t_6": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_8": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_9": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_10": {
+                "Uplink": 5,
+                "Downlink": 1
+            }
+        },
+        "18": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 5
+            },
+            "t_2": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_3": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_4": {
+                "Uplink": 2,
+                "Downlink": 3
+            },
+            "t_5": {
+                "Uplink": 4,
+                "Downlink": 5
+            },
+            "t_6": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_7": {
+                "Uplink": 1,
+                "Downlink": 1
+            },
+            "t_8": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_9": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_10": {
+                "Uplink": 5,
+                "Downlink": 5
+            }
+        },
+        "19": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_2": {
+                "Uplink": 3,
+                "Downlink": 2
+            },
+            "t_3": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_4": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_5": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_6": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 3
+            },
+            "t_9": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_10": {
+                "Uplink": 2,
+                "Downlink": 2
+            }
+        },
+        "20": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 1
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 3
+            },
+            "t_3": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_4": {
+                "Uplink": 1,
+                "Downlink": 2
+            },
+            "t_5": {
+                "Uplink": 4,
+                "Downlink": 3
+            },
+            "t_6": {
+                "Uplink": 1,
+                "Downlink": 3
+            },
+            "t_7": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_8": {
+                "Uplink": 4,
+                "Downlink": 5
+            },
+            "t_9": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_10": {
+                "Uplink": 5,
+                "Downlink": 5
+            }
+        },
+        "21": {
+            "t_1": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 5
+            },
+            "t_3": {
+                "Uplink": 2,
+                "Downlink": 3
+            },
+            "t_4": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_5": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_6": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_7": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_8": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_9": {
+                "Uplink": 1,
+                "Downlink": 1
+            },
+            "t_10": {
+                "Uplink": 2,
+                "Downlink": 1
+            }
+        },
+        "22": {
+            "t_1": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 1
+            },
+            "t_3": {
+                "Uplink": 5,
+                "Downlink": 4
+            },
+            "t_4": {
+                "Uplink": 4,
+                "Downlink": 2
+            },
+            "t_5": {
+                "Uplink": 3,
+                "Downlink": 5
+            },
+            "t_6": {
+                "Uplink": 3,
+                "Downlink": 5
+            },
+            "t_7": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 2
+            },
+            "t_9": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_10": {
+                "Uplink": 4,
+                "Downlink": 4
+            }
+        },
+        "23": {
+            "t_1": {
+                "Uplink": 1,
+                "Downlink": 2
+            },
+            "t_2": {
+                "Uplink": 3,
+                "Downlink": 2
+            },
+            "t_3": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_4": {
+                "Uplink": 4,
+                "Downlink": 3
+            },
+            "t_5": {
+                "Uplink": 3,
+                "Downlink": 1
+            },
+            "t_6": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_7": {
+                "Uplink": 3,
+                "Downlink": 5
+            },
+            "t_8": {
+                "Uplink": 3,
+                "Downlink": 2
+            },
+            "t_9": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_10": {
+                "Uplink": 5,
+                "Downlink": 4
+            }
+        },
+        "24": {
+            "t_1": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_2": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_3": {
+                "Uplink": 4,
+                "Downlink": 2
+            },
+            "t_4": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_5": {
+                "Uplink": 4,
+                "Downlink": 1
+            },
+            "t_6": {
+                "Uplink": 2,
+                "Downlink": 5
+            },
+            "t_7": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 2
+            },
+            "t_9": {
+                "Uplink": 3,
+                "Downlink": 4
+            },
+            "t_10": {
+                "Uplink": 2,
+                "Downlink": 4
+            }
+        },
+        "25": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 2
+            },
+            "t_2": {
+                "Uplink": 3,
+                "Downlink": 1
+            },
+            "t_3": {
+                "Uplink": 2,
+                "Downlink": 3
+            },
+            "t_4": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_5": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_6": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_7": {
+                "Uplink": 1,
+                "Downlink": 2
+            },
+            "t_8": {
+                "Uplink": 5,
+                "Downlink": 1
+            },
+            "t_9": {
+                "Uplink": 1,
+                "Downlink": 1
+            },
+            "t_10": {
+                "Uplink": 4,
+                "Downlink": 3
+            }
+        },
+        "26": {
+            "t_1": {
+                "Uplink": 3,
+                "Downlink": 1
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 1
+            },
+            "t_3": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_4": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_5": {
+                "Uplink": 1,
+                "Downlink": 3
+            },
+            "t_6": {
+                "Uplink": 5,
+                "Downlink": 5
+            },
+            "t_7": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_8": {
+                "Uplink": 2,
+                "Downlink": 5
+            },
+            "t_9": {
+                "Uplink": 4,
+                "Downlink": 3
+            },
+            "t_10": {
+                "Uplink": 1,
+                "Downlink": 3
+            }
+        },
+        "27": {
+            "t_1": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_2": {
+                "Uplink": 1,
+                "Downlink": 1
+            },
+            "t_3": {
+                "Uplink": 2,
+                "Downlink": 1
+            },
+            "t_4": {
+                "Uplink": 3,
+                "Downlink": 1
+            },
+            "t_5": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_6": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_7": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_9": {
+                "Uplink": 3,
+                "Downlink": 2
+            },
+            "t_10": {
+                "Uplink": 3,
+                "Downlink": 2
+            }
+        },
+        "28": {
+            "t_1": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_2": {
+                "Uplink": 3,
+                "Downlink": 3
+            },
+            "t_3": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_4": {
+                "Uplink": 4,
+                "Downlink": 3
+            },
+            "t_5": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_6": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_7": {
+                "Uplink": 2,
+                "Downlink": 5
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_9": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_10": {
+                "Uplink": 5,
+                "Downlink": 3
+            }
+        },
+        "29": {
+            "t_1": {
+                "Uplink": 2,
+                "Downlink": 2
+            },
+            "t_2": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_3": {
+                "Uplink": 1,
+                "Downlink": 3
+            },
+            "t_4": {
+                "Uplink": 2,
+                "Downlink": 4
+            },
+            "t_5": {
+                "Uplink": 5,
+                "Downlink": 3
+            },
+            "t_6": {
+                "Uplink": 3,
+                "Downlink": 1
+            },
+            "t_7": {
+                "Uplink": 1,
+                "Downlink": 4
+            },
+            "t_8": {
+                "Uplink": 1,
+                "Downlink": 3
+            },
+            "t_9": {
+                "Uplink": 2,
+                "Downlink": 3
+            },
+            "t_10": {
+                "Uplink": 5,
+                "Downlink": 1
+            }
+        },
+        "30": {
+            "t_1": {
+                "Uplink": 5,
+                "Downlink": 1
+            },
+            "t_2": {
+                "Uplink": 4,
+                "Downlink": 4
+            },
+            "t_3": {
+                "Uplink": 1,
+                "Downlink": 5
+            },
+            "t_4": {
+                "Uplink": 1,
+                "Downlink": 1
+            },
+            "t_5": {
+                "Uplink": 1,
+                "Downlink": 2
+            },
+            "t_6": {
+                "Uplink": 4,
+                "Downlink": 1
+            },
+            "t_7": {
+                "Uplink": 5,
+                "Downlink": 2
+            },
+            "t_8": {
+                "Uplink": 2,
+                "Downlink": 3
+            },
+            "t_9": {
+                "Uplink": 4,
+                "Downlink": 2
+            },
+            "t_10": {
+                "Uplink": 5,
+                "Downlink": 2
+            }
+        }
+    }
+}

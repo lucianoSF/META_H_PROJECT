@@ -3,7 +3,7 @@ Implementação de metaheurísticas para a resolução do  problema de associaç
 
 
 
-# Experimental setup
+# Experimentação
 30  users ---------- limit 9
 
 60  users ---------- limit 18
@@ -23,3 +23,22 @@ Implementação de metaheurísticas para a resolução do  problema de associaç
 270 users ---------- limit 81
 
 300 users ---------- limit 90
+
+# Resultados
+
+## GA convergência
+<table>
+  <tr>
+    <td><img src="plots/30_pop.png"></td>
+    <td><img src="plots/180_pop.png"></td>
+    <td><img src="plots/300_pop.png"></td>
+  </tr>
+</table>
+
+## Conparação
+<table>
+  <tr>
+    <td><img src="plots/obj.png"></td>
+    <td><img src="plots/time.png"></td>
+  </tr>
+</table>

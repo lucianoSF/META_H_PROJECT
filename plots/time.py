@@ -21,16 +21,16 @@ def read_data(file_name):
 
 if __name__ == "__main__":
     timeOpt = read_data('../saidas/model.txt')
-    timeSA = read_data('../saidas/sa_grasp.txt')
-    timeGA = read_data('../saidas/ga.txt')
+    timeSA = read_data('../saidas/grasp_sa.txt')
+    timeGA = read_data('../saidas/ga_grasp.txt')
 
     x = [30, 60, 90, 120, 150, 180, 210, 240, 270, 300]
     fig,ax = plt.subplots()
 
     fig.set_size_inches(10, 4.5)
-    ax.plot(x, timeOpt, "-o", label="Optimal", linewidth=2.0, markersize=12, color='#006bb3')
+    ax.plot(x, timeOpt, "-o", label="Solução ótima - ILP", linewidth=2.0, markersize=12, color='#006bb3')
     ax.plot(x, timeSA, "-^", label="GRASP+SA", linewidth=2.0, markersize=12, color='red')
-    ax.plot(x, timeGA, "-v", label="GA", linewidth=2.0, markersize=12, color='green')
+    ax.plot(x, timeGA, "-v", label="GA+GRASP", linewidth=2.0, markersize=12, color='green')
     
     ax.set_xlabel("Numero de usuários", fontsize=20, labelpad=8)
     ax.set_ylabel("tempo (s)",fontsize=20)

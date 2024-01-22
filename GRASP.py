@@ -259,7 +259,7 @@ if __name__ == '__main__':
     alpha = 0.98
     iterations_each_temperature = 5
     number_iterations_solution_is_not_improved = 5
-    number_iterations_grasp = 5
+    number_iterations_grasp = 1
   
  
 
@@ -288,7 +288,7 @@ if __name__ == '__main__':
     print('Time: ', final-start)
     print('Solution: ', final_objective)
     
-    with open('saidas/sa_grasp.txt', 'a') as file:
+    with open('saidas/grasp_sa.txt', 'a') as file:
         file.write("{:.5f}".format(final_objective) + ' ' + str(final-start) + '\n')
     
     

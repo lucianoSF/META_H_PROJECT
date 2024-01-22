@@ -13,6 +13,9 @@ n_iterations = 150
 size_of_population = 50
 e = 0.01
 itens_to_change = int(0.10 * size_of_population)
+
+
+alpha_limit = 1
 #itens_to_change = 1
 
 
@@ -39,8 +42,20 @@ def constructed_solution(dict_BIPs):
                 if BS_number_of_users[t][bsDL-1] < config.V:
                     availableSolutions.append(item)
  
-            RCL = availableSolutions
-
+            #RCL = availableSolutions
+    
+            alpha = random.uniform(0, alpha_limit)
+            min_cost = min(availableSolutions, key=lambda x: x[1])
+            max_cost = max(availableSolutions, key=lambda x: x[1])
+            threeshould_of_RCL = min_cost[1] + alpha*(max_cost[1] - min_cost[1])
+            RCL = []
+            
+            # Criação da lista
+            for item in availableSolutions:
+                bsUL = item[0].split('_')[0]
+                bsDL = item[0].split('_')[1]
+                if item[1]<=threeshould_of_RCL:
+                    RCL.append(item)
                     
             size_RCL = len(RCL)
             sol = random.randint(0, size_RCL-1)
@@ -56,6 +71,7 @@ def constructed_solution(dict_BIPs):
 
 
 # Gravar soluções em arquivo
+'''
 def record_solutions(solutions):
     
     with open('saidas/SA/' + str(configus) + '_solution.csv', 'w') as file:
@@ -64,7 +80,7 @@ def record_solutions(solutions):
     with open('saidas/SA/' + str(config.us) + '_solution.csv', 'a') as file:
         for item in solutions:
             file.write(str(item) + '\n')
-
+'''
             
 def create_initial_population(dict_BIPs):
     population = []
@@ -282,7 +298,7 @@ def replace(population, fitness, obj, new_population, new_fitness, new_obj, best
     
 # Gravar soluções em arquivo
 def record_solutions(solutions, best, suf):
-        with open('saidas/GA/' + suf, 'a') as file:
+        with open('saidas/GA-GP/' + suf, 'a') as file:
             file.write('Pop;Best\n')
             
             for item1, item2 in zip(solutions, best):
@@ -364,7 +380,7 @@ if __name__ == '__main__':
     
     print('Time: ', final-start)
 
-    with open('saidas/ga.txt', 'a') as file:
+    with open('saidas/ga_grasp.txt', 'a') as file:
         file.write("{:.5f}".format(final_objective) + ' ' + str(final-start) + '\n')
     
     

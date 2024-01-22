@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import ast
 
 users = '300'
-df = pd.read_csv('../saidas/GA/' + users + '_solution.csv', sep=';')
+df = pd.read_csv('../saidas/GA-GP/' + users + '_solution.csv', sep=';')
 
 print(df)
 
@@ -35,7 +35,7 @@ ax.plot(x_best, y_best, ".", label="Complete model", linewidth=2.0, markersize=1
 ax.set_xlabel("Iteração", fontsize=24, labelpad=8)
 ax.set_ylabel("FO",fontsize=24)
 
-xticks = [0, 25, 50,75,100]
+xticks = [0, 25, 50,75,100, 125, 150]
 #xticks = [0, 250, 500, 750, 1000]
 ax.set_xticks(xticks)
 ax.set_xticklabels(xticks, fontsize=10)

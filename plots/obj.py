@@ -21,16 +21,18 @@ def read_data(file_name):
 
 if __name__ == "__main__":
     timeOpt = read_data('../saidas/model.txt')
-    timeSA = read_data('../saidas/sa_grasp.txt')
-    timeGA = read_data('../saidas/ga.txt')
+    timeSA = read_data('../saidas/grasp_sa.txt')
+    timeGA = read_data('../saidas/ga_grasp.txt')
     
     x = [30, 60, 90, 120, 150, 180, 210, 240, 270, 300]
     fig,ax = plt.subplots()
+    
+    print(len(timeSA))
 
     fig.set_size_inches(10, 4.5)
-    ax.plot(x, timeOpt, "-o", label="Optimal", linewidth=2.0, markersize=12, color='#006bb3')
+    ax.plot(x, timeOpt, "-o", label="Solução ótima - ILP", linewidth=2.0, markersize=12, color='#006bb3')
     ax.plot(x, timeSA, "-^", label="GRASP+SA", linewidth=2.0, markersize=12, color='red')
-    ax.plot(x, timeGA, "-v", label="GA", linewidth=2.0, markersize=12, color='green')
+    ax.plot(x, timeGA, "-v", label="GA+GRASP", linewidth=2.0, markersize=12, color='green')
     
     ax.set_xlabel("Numero de usuários", fontsize=20, labelpad=8)
     ax.set_ylabel("Break in Presence",fontsize=20)
@@ -40,19 +42,31 @@ if __name__ == "__main__":
 
     ticks = [0, 2000, 4000, 6000, 8000, 10000, 12000, 14000]
 
-    '''
     for i,j,l  in zip(timeOpt,timeSA,x):
-        #print(x, y)
-        gap = (1-(i/j))*100
-        print(gap)
-        label = "{:.2f}%".format(gap)
 
-        ax.annotate(label, # this is the text
-                     (l,i), # these are the coordinates to position the label
-                     textcoords="offset points", # how to position the text
-                     xytext=(0,10), # distance from text to points (x,y)
-                     ha='center') # horizontal alignment can be left, right or center
-    '''    
+        gap = (1-(i/j))*100
+
+        label = "{:.2f}%".format(gap)
+        if l == 300:
+            ax.annotate(label, (l,i), textcoords="offset points", xytext=(0,-20), ha='center', color='red')
+            ax.annotate("*",(l,i), textcoords="offset points", xytext=(0,-40), ha='center', fontsize=20, color='red') 
+        else:
+            ax.annotate(label, (l,i), textcoords="offset points", xytext=(0,10), ha='center', color='red')  
+            
+            
+            
+    for i,j,l  in zip(timeOpt,timeGA,x):
+
+        gap = (1-(i/j))*100
+
+        label = "{:.2f}%".format(gap)
+        if l == 300:
+            ax.annotate(label, (l,j), textcoords="offset points", xytext=(0,-20), ha='center', color='green')
+            ax.annotate("*",(l,j), textcoords="offset points", xytext=(0,-40), ha='center', fontsize=20, color='green') 
+        else:
+            ax.annotate(label, (l,j), textcoords="offset points", xytext=(0,20), ha='center', color='green')
+            
+     
     ax.set_yticks(ticks)
     ax.set_yticklabels(ticks, fontsize=20)
 
